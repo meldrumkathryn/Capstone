@@ -4,6 +4,10 @@ API DATA MANIPULATION
 
 APIpullcode.ipynb: code to get and update a full dataset by interfacing with the API
 
+Full Data Set from API pull: https://drive.google.com/file/d/1IKGic0o9awKoTbMGmoMpoArwo7rCHPO7/view?usp=sharing
+
+(download required)
+
 STATIC DOWNLOAD DATA MANIPULATION
 
 pullalltrials.ipynb: using code from an old version of pulltrialinfo_workbook.ipynb to attempt to access all trials in database- 
