@@ -15,8 +15,12 @@ will update when new pull code is finalized and new full pull is done
 
 *pulltrialinfo_workbook.ipynb:* function for pulling a single trial
 
-**OTHER**
+**ENTITY MAPPING RESOURCES**
 
 *get_chia_ann.ipynb:* pull annotations from local copies of annotation files from the Chia Corpera
 
 *chia_ann.csv:* list of all annotations done by chia (without file separation) for understanding what entities are
+
+*get_lct_ann.ipynb:* pull annotations from local copies of annotation files from the LCT Corpera
+
+*lct_ann.csv:* list of all annotations done by chia (without file separation) for understanding what entities are
