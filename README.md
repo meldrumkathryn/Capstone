@@ -26,4 +26,5 @@ will update when new pull code is finalized and new full pull is done
 *lct_ann.csv:* list of all annotations done by chia (without file separation) for understanding what entities are
 
 **NER Resources**
+
 *scispacy_exploration.ipynb:* initial exploration of SciSpaCy on our data set
