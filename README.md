@@ -17,11 +17,11 @@ will update when new pull code is finalized and new full pull is done
 
 **ENTITY MAPPING RESOURCES**
 
-*get_chia_ann.ipynb:* pull annotations from local copies of annotation files from the Chia Corpera
+*get_chia_ann.ipynb:* pull annotations from local copies of annotation files from the Chia Corpus
 
 *chia_ann.csv:* list of all annotations done by chia (without file separation) for understanding what entities are
 
-*get_lct_ann.ipynb:* pull annotations from local copies of annotation files from the LCT Corpera
+*get_lct_ann.ipynb:* pull annotations from local copies of annotation files from the LCT Corpus
 
 *lct_ann.csv:* list of all annotations done by chia (without file separation) for understanding what entities are
 
