@@ -27,11 +27,33 @@ Literature:
 
 *training_data.spacy*: training docbin for spacy model training
 
-###How to replicate Model training: 
+### How to replicate Model training: 
 
-Download chia's corpus without scope: 
+1. Download chia's corpus without scope: https://doi.org/10.6084/m9.figshare.11855817
+
+2. Download SciSpacy sm model: https://github.com/allenai/scispacy
+
+3. Use the *chia_train.ipynb* to make the *training_data.spacy* and *dev_data.spacy* files 
+
+4. Change lines in base_config.cfg file:
+
+```
+train = '<path to directory>/training_data.spacy'
+dev = '<path to directory>/dev_data.spacy'
+```
+5. In terminal, based in directory where these files are stored, run these lines: 
+
+```
+python -m spacy init fill-config base_config.cfg config.cfg
+```
+
+```
+python -m spacy train config.cfg --output ./ --paths.train ./training_data.spacy --paths.dev ./dev_data.spacy 
+```
+
+**streamlit_files**
+
+additional files: 
 https://virginia.box.com/s/4ezc8cerqqon4l63aa52yvrq0wu35k2k
-
-
 
 
