@@ -57,3 +57,6 @@ additional files:
 https://virginia.box.com/s/4ezc8cerqqon4l63aa52yvrq0wu35k2k
 
 
+## Running the Streamlit application
+1. Change existing paths
+2. Run app.py
