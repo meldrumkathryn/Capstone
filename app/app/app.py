@@ -56,7 +56,7 @@ entities = df6['Entities']
 with st.form("my_form1"):
    corpus = st.radio(
      "Choose a corpus",
-     ('Chia', 'EBM NLP'))
+     ('Chia'))
 
    # Every form must have a submit button.
    submitted1 = st.form_submit_button("Choose")
@@ -65,15 +65,15 @@ with st.form("my_form1"):
 with st.form("my_form2"):
   if corpus == 'Chia':
     st.write('Entities for Chia')
-  elif corpus == 'EBM NLP':
-    st.write('Entities for EBM NLP')
+#   elif corpus == 'EBM NLP':
+#     st.write('Entities for EBM NLP')
 
   if submitted1:
     if corpus == 'Chia':
       st.write('[Chia, a large annotated corpus of clinical trial eligibility criteria](https://www.nature.com/articles/s41597-020-00620-0)')
       st.write(df6)
-    elif corpus == 'EBM NLP':
-      st.write('[EBM NLP, A Corpus with Multi-Level Annotations of Patients, Interventions and Outcomes to Support Language Processing for Medical Literature](https://www.nature.com/articles/s41597-020-00620-0)')
+#     elif corpus == 'EBM NLP':
+#       st.write('[EBM NLP, A Corpus with Multi-Level Annotations of Patients, Interventions and Outcomes to Support Language Processing for Medical Literature](https://www.nature.com/articles/s41597-020-00620-0)')
     else:
       st.write("Please select a corpus.")
 
@@ -179,7 +179,7 @@ if v:
 
     # Displacy - test for any
     st.header('Visualizing Entities')
-    nlp = spacy.load('C:/Users/nikit/UVAMSDS/app/app/model-last')
+    nlp = spacy.load('https://github.com/meldrumkathryn/clinicaltrials.gov_NER/tree/main/app/app/model-last/model-last')
     # To Do: Change text input to be selected trials from aggrid
     # df_head = df3.head()
     # text_inc = str(df3['InclusionCriteria'][0])
