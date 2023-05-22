@@ -17,13 +17,13 @@ Literature:
 
 *dev_data.spacy*: validation docbin for spacy model training
 
-*relaxed_scorer*: scores spacy model by overlap of entitiy span
+*relaxed_scorer.ipynb*: scores spacy model by overlap of entitiy span
 
-*stratified_sampling*: determines optimal train/dev/test split of chia corpus for training spacy
+*stratified_sampling.ipynb*: determines optimal train/dev/test split of chia corpus for training spacy
 
-*strict_scorer*: uses spacy.Scorer() to score spacy model
+*strict_scorer.ipynb*: uses spacy.Scorer() to score spacy model
 
-*strict_scorer_custom*: scored spacy model by exact match to entity span
+*strict_scorer_custom.ipynb*: scored spacy model by exact match to entity span
 
 *training_data.spacy*: training docbin for spacy model training
 
@@ -53,8 +53,10 @@ python -m spacy train config.cfg --output ./ --paths.train ./training_data.spacy
 
 **streamlit_files**
 
-additional files: 
+**additional files:** 
 https://virginia.box.com/s/4ezc8cerqqon4l63aa52yvrq0wu35k2k
+
+*results.csv*: contains dataframe with NCT ID and results of Chia-based NER model for all models availible on clinicaltrials.gov as of 05/19/23
 
 
 ## Running the Streamlit application
