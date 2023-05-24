@@ -53,6 +53,12 @@ python -m spacy train config.cfg --output ./ --paths.train ./training_data.spacy
 
 **streamlit_files**
 
+*api_pull_data_small.csv*: sample of dataframe to demo search within each NCT file, 10000 trials
+
+*entities.csv*: table of entities and their descrtiptions
+
+*ents_spans_small.csv*: sample of dataframe containing all spans marked with each entity label from 10000 trials
+
 **additional files:** 
 https://virginia.box.com/s/4ezc8cerqqon4l63aa52yvrq0wu35k2k
 
