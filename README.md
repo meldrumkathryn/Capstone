@@ -3,8 +3,6 @@
 ## About the Project
 This repository contains relevant code and data for the Clinicaltrials.gov Natural Language Processing Capstone project by the University of Virginia School of Data Science, sponsored by AllenAI. 
 
-Literature: 
-
 ## File Descriptions: 
 
 **mod_chia**
