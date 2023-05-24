@@ -57,7 +57,7 @@ python -m spacy train config.cfg --output ./ --paths.train ./training_data.spacy
 https://virginia.box.com/s/4ezc8cerqqon4l63aa52yvrq0wu35k2k
 
 *results.csv*: contains dataframe with NCT ID and results of Chia-based NER model for all models availible on clinicaltrials.gov as of 05/19/23
-
+*ents_spans.csv*: contains the spans possible to search within for each entity, for the streamlit app 
 
 ## Running the Streamlit application
 1. Change existing paths
